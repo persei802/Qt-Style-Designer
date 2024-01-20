@@ -1,0 +1,25 @@
+/** Tab Widgets **/
+
+QTabWidget {
+    border: none;
+}
+
+QTabWidget::pane {
+    background: transparent;
+    border: none;
+    top: -1px;
+}
+
+QTabBar::tab {
+    border: $border-line;
+    border-radius: $border-radius;
+    min-height: 40px;
+    min-width: 80px;
+    font: $font-stack;
+    color: $color-normal;
+}
+
+QTabBar::tab:selected {
+    border: $border-pressed;
+    color: $color-pressed;
+}

@@ -1,0 +1,12 @@
+/** LineEdits **/
+
+QLineEdit {
+    background: $bgnd-lineedit;
+    border-radius: $border-radius;
+    font: $font-stack;
+    color: $color-lineedit;
+}
+
+QLineEdit:focus {
+    border: $border-lineedit-focus;
+}

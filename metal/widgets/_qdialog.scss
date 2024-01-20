@@ -1,0 +1,14 @@
+/* Dialog */
+QDialog{
+background-image: url($rc_folder +'/brushed_metal.png');
+}
+
+ToolDialog QPushButton, AboutDialog QPushButton{
+    width: 100px;
+    height: 40px;
+}
+
+EntryDialog QPushButton, CloseDialog QPushButton{
+    width: 80px;
+    height: 40px;
+}

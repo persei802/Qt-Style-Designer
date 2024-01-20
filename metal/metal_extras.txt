@@ -1,0 +1,26 @@
+#Miscellaneous
+#rc_folder = 'metal/style_rc'
+rc_folder = 'qtdragon/images'
+# Colors
+
+# Borders
+border-line = 2px solid #000000
+border-pressed = 2px solid#0000FF
+border-radius = 4px
+border-hover = 2px solid #73C7FF
+border-lineedit = 2px solid #000000
+border-lineedit-focus = 1px solid#73C7FF
+border-label = 2px solid #000000
+border-groupbox = 2px solid#19232D
+border-slider = 1px solid #000000
+
+# Backgrounds
+bgnd-groupbox = transparent
+bgnd-dro = transparent
+bgnd-lineedit = transparent
+bgnd-combo = transparent
+bgnd-progress = transparent
+
+# Fonts
+font-stack = 10pt 'Lato Heavy'
+font-dro = 20pt 'Lato Heavy'

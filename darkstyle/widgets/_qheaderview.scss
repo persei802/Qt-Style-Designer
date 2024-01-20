@@ -1,0 +1,33 @@
+/* HeaderView */
+
+QHeaderView {
+    background-color: #404040;
+    margin: 0px;
+    padding: 0px;
+    font: 14px "Lato Heavy";
+}
+
+QHeaderView::section {
+    background-color: #404040;
+    color: $color-normal;
+    padding: 5px;
+}
+
+QHeaderView::section::vertical {
+    border-top: $border-line;
+    color: $color-normal;
+}
+
+QHeaderView::section::vertical {
+    border-top: transparent;
+}
+
+QHeaderView::section::horizontal {
+    border-left: 1px solid #e0e0e0;
+    color: $color-normal;
+}
+
+QHeaderView::section::horizontal {
+    border-left: transparent;
+}
+

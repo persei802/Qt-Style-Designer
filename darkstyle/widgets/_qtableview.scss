@@ -1,0 +1,32 @@
+/** Tableviews **/
+
+QTableView {
+    background: $bgnd-normal;
+    selection-background-color: transparent;
+    qproperty-alternatingRowColors: false;
+    font: $font-stack;
+    color: $color-normal;
+}
+
+QTableView::item:hover {
+    border: $border-hover;
+}
+
+QTableView::item:pressed {
+    background: $bgnd-pressed;
+    color: $color-pressed;
+}
+
+QTableView::item:selected:active {
+    background: $bgnd-pressed;
+    color: $color-pressed;
+}
+
+QTableView#tooloffsetview {
+    qproperty-styleColorSelection: #404040;
+    qproperty-styleColorHighlight: #808080;
+}
+
+QTableView#offset_table {
+    qproperty-styleColorHighlight: #606060;
+}

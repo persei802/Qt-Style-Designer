@@ -1,0 +1,15 @@
+/* GroupBox */
+QGroupBox {
+    background: $bgnd-groupbox;
+    border: $border-line;
+    border-radius: $border-radius;
+    margin-top: 16px;
+    font: $font-stack;
+}
+
+QGroupBox::title {
+    subcontrol-origin: margin;
+    subcontrol-position: top-center;
+    padding: 0 4px;
+    color: $color-lineedit;
+}

@@ -1,0 +1,10 @@
+/** Dialogs **/
+
+QDialog {
+    background-color: gray;
+}
+
+QDialog QPushButton {
+    width: 100px;
+    height: 50px;
+}

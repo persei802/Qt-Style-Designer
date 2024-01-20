@@ -1,0 +1,21 @@
+/* QStatusBar */
+QStatusBar {
+    border: $border-line;
+    background: $bgnd-normal;
+
+    &::item {
+        border: none;
+    }
+
+    QToolTip {
+        background-color: $bgnd-normal;
+        border: $border-line;
+        color: $color-normal;
+        padding: 0px;
+        opacity: $opacity-tooltip;
+    }
+
+    QLabel {
+        background: transparent;
+    }
+}

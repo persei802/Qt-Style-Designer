@@ -1,0 +1,25 @@
+/* ComboBox */
+QComboBox {
+    background: $bgnd-combo;
+    border: $border-line;
+    border-radius: $border-radius;
+    min-width: 100px;
+    font: $font-stack;
+    color: $color-normal;    
+}
+
+QComboBox::drop-down {
+    subcontrol-origin: margin;
+    subcontrol-position: top right;
+    border: none;
+    width: 40px;
+}
+
+QComboBox::item {
+    background-color: $bgnd-combo;
+    color: $color-normal;
+}
+
+QComboBox::item:selected {
+    color: $color-selected;
+}

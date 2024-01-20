@@ -1,0 +1,16 @@
+#DFE1E2$color-normal
+#DFE1E2$color-pressed
+#DFE1E2$color-lineedit
+#DFE1E2$color-label
+#54687A$scrollbar-handle
+#788D9C$color-disabled
+#54687A$color-hover
+#293544$bgnd-lineedit
+#9DA9B5$slider-handle
+#293544$bgnd-slider
+#54687A$dro-color
+#19232D$bgnd-dro
+#346792$progress-chunk
+#293544$bgnd-progress
+#293544$bgnd-normal
+#54687A$bgnd-pressed

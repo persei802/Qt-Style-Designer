@@ -1,0 +1,11 @@
+/** Menus **/
+
+QMenu {
+    background-color: $bgnd-normal;
+    color: $color-normal;
+}
+
+QMenu::item:selected {
+    background: $bgnd-pressed;
+    color: $color-pressed;
+}

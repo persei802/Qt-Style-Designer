@@ -1,0 +1,37 @@
+/** Sliders **/
+
+QSlider::groove:horizontal {
+    background: $bgnd-slider;
+    height: 8px;
+    border-radius: $border-radius;
+}
+
+QSlider::groove:vertical {
+    background: $bgnd-slider;
+    width: 8px;
+    border-radius: $border-radius;
+}
+
+QSlider::sub-page:horizontal {
+    margin: 4px;
+}
+
+QSlider::add-page:vertical {
+    margin: 4px;
+}
+
+QSlider::handle:horizontal {
+    background: $slider-handle;
+    border: $border-line;
+    width: 20px;
+    margin: -8px 0px;
+    border-radius: 2px;
+}
+
+QSlider::handle:vertical {
+    background: $slider-handle;
+    border: $border-line;
+    height: 20px;
+    margin: 0px -8px;
+    border-radius: 2px;
+}

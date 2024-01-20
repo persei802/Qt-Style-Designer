@@ -1,0 +1,16 @@
+/* QTextEdit */
+QTextEdit {
+    background-color: $COLOR_BACKGROUND_1;
+    color: $COLOR_TEXT_1;
+    border-radius: $SIZE_BORDER_RADIUS;
+    border: $BORDER_2;
+}
+
+QTextEdit:focus {
+    border: $BORDER_SELECTION_3;
+}
+
+QTextEdit:selected {
+    background: $COLOR_ACCENT_2;
+    color: $COLOR_BACKGROUND_4;
+}

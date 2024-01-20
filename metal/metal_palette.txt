@@ -1,0 +1,16 @@
+#000000$color-normal
+#0000FF$color-pressed
+#000000$color-lineedit
+#19232D$color-label
+#346792$scrollbar-handle
+#54687A$color-disabled
+#057DCE$color-hover
+#259AE9$spare
+#37AEFE$bgnd-selected
+#0000FF$color-selected
+#000000$dro-color
+#ACB1B6$slider-handle
+#9DA9B5$bgnd-slider
+#DAEDFF$spare
+#5e5c64$progress-chunk
+#5e5c64$slider-subpage

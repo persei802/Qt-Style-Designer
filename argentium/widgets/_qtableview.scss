@@ -1,0 +1,68 @@
+/** Tableviews **/
+
+QTableView {
+    background: $bgnd-normal;
+    selection-background-color: transparent;
+    border-top: $border-bottom;
+    border-left: $border-right;
+    border-right: $border-left;
+    border-bottom: $border-top;
+    qproperty-alternatingRowColors: false;
+    font: $font-stack;
+    color: $color-normal;
+}
+
+QTableView::item:hover {
+    border: $border-hover;
+}
+
+QTableView::item:pressed {
+    background: $bgnd-pressed;
+    color: $color-pressed;
+}
+
+QTableView::item:selected:active {
+    background: $bgnd-pressed;
+    color: $color-pressed;
+}
+
+QTableView#tooloffsetview {
+    qproperty-styleColorSelection: #404040;
+    qproperty-styleColorHighlight: #808080;
+}
+
+QTableView#offset_table {
+    qproperty-styleColorHighlight: #606060;
+}
+
+QHeaderView {
+    background-color: #404040;
+    margin: 0px;
+    padding: 0px;
+    font: 14px "Lato Heavy";
+}
+
+QHeaderView::section {
+    background-color: #404040;
+    color: $color-normal;
+    padding: 5px;
+}
+
+QHeaderView::section::vertical {
+    border-top: $border-line;
+    color: $color-normal;
+}
+
+QHeaderView::section::vertical {
+    border-top: transparent;
+}
+
+QHeaderView::section::horizontal {
+    border-left: 1px solid #e0e0e0;
+    color: $color-normal;
+}
+
+QHeaderView::section::horizontal {
+    border-left: transparent;
+}
+

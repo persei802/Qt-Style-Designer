@@ -1,0 +1,33 @@
+/** Tab Widgets **/
+
+QTabWidget {
+    border: none;
+}
+
+QTabWidget::pane {
+    background: transparent;
+    border: none;
+    top: -1px;
+}
+
+QTabBar::tab {
+    background: $bgnd-normal;
+    border-radius: $border-radius;
+    border-top: $border-top;
+    border-left: $border-left;
+    border-right: $border-right;
+    border-bottom: $border-bottom;
+    min-height: 40px;
+    min-width: 80px;
+    font: $font-stack;
+    color: $color-normal;
+}
+
+QTabBar::tab:selected {
+    background: $bgnd-pressed;
+    border-top: $border-bottom;
+    border-left: $border-right;
+    border-right: $border-left;
+    border-bottom: $border-top;
+    color: $color-pressed;
+}

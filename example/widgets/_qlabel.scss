@@ -1,0 +1,12 @@
+/** Labels **/
+
+QLabel {
+    background: transparent;
+    font: $font-stack;
+    color: $color-label;
+}
+
+QStatusBar {
+    background: $bgnd-groupbox;
+    color: $color-normal;
+}

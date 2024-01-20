@@ -1,0 +1,16 @@
+#F0F0F0$color-normal
+#101010$color-pressed
+#101010$color-lineedit
+#F0F0F0$color-label
+#909090$spare
+#808080$color-disabled
+#F0F0F0$color-hover
+#202020$bgnd-lineedit
+#E0E0E0$bgnd-selected
+#101010$color-selected
+#00AAFF$dro-color
+#202020$bgnd-dro
+#404040$bgnd-slider
+#404040$bgnd-progress
+#00AAFF$slider-subpage
+#606060$bgnd-menu

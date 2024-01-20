@@ -1,0 +1,14 @@
+/** Progress Bars **/
+
+QProgressBar {
+    background: $bgnd-progress;
+    border-radius: $border-radius;
+    font: $font-stack;
+    color: $color-normal;
+}
+
+QProgressBar::chunk:horizontal {
+    background: $progress-chunk;
+    border-radius: $border-radius;
+    margin: 2px;
+}
