@@ -9,3 +9,8 @@ QProgressBar {
 QProgressBar::chunk {
     background: $progress-chunk;
 }
+
+StatusAdjustmentBar QToolButton {
+    width: 40px;
+    height: 40px;
+}

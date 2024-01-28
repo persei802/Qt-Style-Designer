@@ -12,3 +12,8 @@ QProgressBar::chunk:horizontal {
     border-radius: $border-radius;
     margin: 2px;
 }
+
+StatusAdjustmentBar QToolButton {
+    width: 40px;
+    height: 40px;
+}
