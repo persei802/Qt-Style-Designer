@@ -1,0 +1,46 @@
+/** Labels **/
+
+QLabel {
+    background: transparent;
+    font: $font-stack;
+    color: $color-label;
+}
+
+StatusLabel {
+    background: $bgnd-lineedit;
+    border-top: $border-bottom;
+    border-left: $border-right;
+    border-right: $border-left;
+    border-bottom: $border-top;
+    border-radius: $border-radius;
+    font: $font-stack;
+    color: $color-label;
+}
+
+StatusLabel#lbl_gcodes,
+StatusLabel#lbl_mcodes,
+StatusLabel#lbl_clock {
+    background: transparent;
+    border: none;
+    color: $color-label;
+}
+
+DROLabel {
+    background: $bgnd-dro;
+    border-radius: 4px;
+    border-top: $border-bottom;
+    border-left: $border-right;
+    border-right: $border-left;
+    border-bottom: $border-top;
+    font: $dro-font;
+    color: $dro-color;
+}
+
+DROLabel[isHomed=false] {
+    color: red;
+}
+
+QStatusBar {
+    background: $bgnd-groupbox;
+    color: $color-normal;
+}

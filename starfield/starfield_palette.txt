@@ -1,0 +1,16 @@
+$#000000$#D4AC63$color-normal$B16
+$#101010$#CD2435$color-pressed$B16
+$#202020$#E56335$color-lineedit$B16
+$#303030$#2B4D7D$color-label$B16
+$#404040$#F4F5F7$scrollbar-handle$A10
+$#505050$#1A72BB$color-disabled$A9
+$#606060$#057DCE$bgnd-groupbox$A7
+$#707070$#c061cb$bgnd-lineedit$A3
+$#808080$#37AEFE$border-top-left$A8
+$#909090$#73C7FF$border-bottom-right$A1
+$#A0A0A0$#9FCBFF$dro-color$B15
+$#B0B0B0$#C2DFFA$bgnd-dro$A3
+$#C0C0C0$#CEE8FF$border-hover$B16
+$#D0D0D0$#DAEDFF$bgnd-progress$A5
+$#E0E0E0$#00AAFF$progress-chunk$B15
+$#F0F0F0$#FFFFFF$color-disabled$A9

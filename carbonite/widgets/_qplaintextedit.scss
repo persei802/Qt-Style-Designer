@@ -1,0 +1,9 @@
+/** Plain Text Edit **/
+
+QTextEdit,
+QPlainTextEdit {
+    background: $bgnd-normal;
+    border: $border-line;
+    border-radius: $border-radius;
+    color: $color-normal;
+}

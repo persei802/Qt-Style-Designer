@@ -1,0 +1,26 @@
+/** PushButtons **/
+
+QToolButton,
+QPushButton {
+    background: $bgnd-normal;
+    border: 1px solid black;
+    border-radius: $border-radius;
+    font: $font-stack;
+    color: $color_normal;
+}
+
+QPushButton:disabled,
+QPushButton:checked:disabled {
+    color: $color-disabled;
+}
+
+QPushButton:pressed,
+QPushButton:checked {
+    background: $bgnd-pressed;
+    color: $color_pressed;
+}
+
+QPushButton:hover,
+QToolButton:hover {
+    border: $border-hover;
+}

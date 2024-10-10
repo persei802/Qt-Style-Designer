@@ -1,0 +1,26 @@
+/** Checkboxes **/
+
+QCheckBox {
+    spacing: 10px;
+    margin-bottom: 2px;
+    font: $font-stack;
+    color: $color-normal;
+}
+
+QCheckBox:disabled {
+    color: gray;
+}
+
+QCheckBox::indicator {
+    width: 20px;
+    height: 20px;
+}
+
+QCheckBox::indicator:unchecked {
+    image: url($rc_folder + '/unchecked.png');
+}
+
+QCheckBox::indicator:checked {
+    image: url($rc_folder + '/checked.png');
+}
+

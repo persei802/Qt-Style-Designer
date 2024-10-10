@@ -1,0 +1,12 @@
+/** Tool Tips **/
+
+QToolTip
+{
+    background: $bgnd-normal;
+    border: $border-line;
+    padding: 1px;
+    border-radius: $border-radius;
+    font: $font-stack;
+    color: $color-normal;
+    opacity: 200;
+}

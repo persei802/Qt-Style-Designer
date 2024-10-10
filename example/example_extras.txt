@@ -1,0 +1,26 @@
+#Miscellaneous
+rc_folder = 'example/style_rc'
+
+# Colors
+progress-chunk = qlineargradient(0, 0, 0, 1, (0 #00AAFF, 1 #303030))
+
+# Borders
+border-line = 1px solid #000000
+border-radius = 4px
+border-top = 2px solid #606060
+border-left = 2px solid #606060
+border-right = 2px solid #404040
+border-bottom = 2px solid #404040
+border-hover = 1px solid blue
+border-lineedit = 1px solid black
+border-lineedit-focus = 1px solid blue
+border-groupbox = 1px solid gray
+
+# Backgrounds
+bgnd-normal = qlineargradient(0, 0, 0, 1, (0 #505050, 1 #606060))
+bgnd-pressed = qlineargradient(0, 0, 0, 1, (0#606060, 1 #505050))
+#bgnd-groupbox = transparent
+bgnd-main-window = #808080
+
+# Fonts
+font-stack = 10pt 'Lato Heavy'

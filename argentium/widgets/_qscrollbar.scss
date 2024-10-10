@@ -1,0 +1,60 @@
+/** Scrollbars **/
+
+QScrollBar:horizontal {
+    background: $bgnd-scrollbar;
+    margin: 0px 30px 0px 30px;
+    height: $scrollbar_height;
+}
+
+QScrollBar::handle:horizontal {
+    background-color: $scrollbar_handle;
+    border: $border-line;
+    border-radius: $border-radius;
+    min-width: 30px;
+}
+
+QScrollBar::add-line:horizontal {
+    background: transparent;
+    subcontrol-position: right;
+    subcontrol-origin: margin;
+    width: $scrollbar-height;
+    image: url($rc_folder + '/arrow_right.png');
+}
+
+QScrollBar::sub-line:horizontal {
+    background: transparent;
+    subcontrol-position: left;
+    subcontrol-origin: margin;
+    width: $scrollbar-height;
+    image: url($rc_folder + '/arrow_left.png');
+}
+
+QScrollBar:vertical {
+    background-color: $bgnd-scrollbar;
+    margin: 30px 0px 30px 0px;
+    width: $scrollbar_width
+}
+
+QScrollBar::handle:vertical {
+    background-color: $scrollbar_handle;
+    border: $border-line;
+    border-radius: $border-radius;
+    min-height: 30px;
+}
+
+QScrollBar::sub-line:vertical {
+    background: transparent;
+    subcontrol-position: top;
+    subcontrol-origin: margin;
+    height: $scrollbar-width;
+    image: url($rc_folder + '/arrow_up.png');
+}
+
+QScrollBar::add-line:vertical {
+    background: transparent;
+    subcontrol-position: bottom;
+    subcontrol-origin: margin;
+    height: $scrollbar-width;
+    image: url($rc_folder + '/arrow_down.png');
+}
+

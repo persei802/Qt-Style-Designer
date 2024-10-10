@@ -1,0 +1,47 @@
+
+//
+//    WARNING! File created programmatically.
+//    All changes made in this file will be lost!
+//
+// Palette variables for obsidian
+$color-normal: #F0F0F0;
+$color-pressed: #F0F0F0;
+$color-hover: #F0F0F0;
+$color-disabled: #808080;
+$color-lineedit: #F0F0F0;
+$color-label: #F0F0F0;
+$color-selected: #101010;
+$bgnd-selected: #E0E0E0;
+$bgnd-lineedit: #202020;
+$bgnd-dro: #202020;
+$bgnd-slider: #404040;
+$bgnd-progress: #404040;
+$slider-subpage: #00AAFF;
+$scrollbar-handle: #909090;
+$dro-color: #00AAFF;
+// Extras
+$rc_folder: 'qtdragon/images';
+$axis-color-x: #00FF00;
+$axis-color-y: #FF0000;
+$axis-color-z: #0000FF;
+$axis-color-a: #FF00FF;
+$progress-chunk: qlineargradient(0, 0, 0, 1, (0 #00AAFF, 1 #303030));
+$border-line: 1px solid black;
+$border-radius: 4px;
+$border-top: 2px solid #707070;
+$border-left: 2px solid #707070;
+$border-right: 2px solid #000000;
+$border-bottom: 2px solid #000000;
+$border-hover: 1px solid white;
+$border-lineedit: 1px solid black;
+$border-lineedit-focus: 1px solid #00AAFF;
+$border-groupbox: 1px solid #D0D0D0;
+$bgnd-normal: qlineargradient(0, 0, 0, 1, (0 #606060, 1 #404040));
+$bgnd-pressed: qlineargradient(0, 0, 0, 1, (0 #404040, 1 #606060));
+$bgnd-scrollbar: qlineargradient(0, 0, 0, 1, (0 #606060, 1 #404040));
+$bgnd-groupbox: transparent;
+$bgnd-main-window: url($rc_folder + '/dark_metal.png');
+$scrollbar_height: 30px;
+$scrollbar_width: 30px;
+$dro-font: 20pt 'Lato Heavy';
+$font-stack: 10pt 'Lato Heavy';

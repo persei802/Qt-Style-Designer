@@ -1,0 +1,90 @@
+Introduction
+------------
+The purpose of this program is to help users create stylesheets for Qt based GUI applications. On the left side is a palette
+of 32 user defined colors that can be assigned to various properties of the widgets used in the GUI. On the right side is a
+text editing area for creating the symbols that the qtsass compiler needs in order to create a qss file. If qtsass is not
+installed, the user can still create the variables file but it cannot be compiled into a qss file needed for the stylesheet.
+
+Directory Structure
+-------------------
+Style Designer expects files to be located in the following directory structure.
+/home/username/style_designer
+                            > stylename
+                                      > stylename_palette.txt
+                                      > stylename_extras.txt
+                                      > stylename.scss
+                                      > _variables.scss
+                                      > style_rc
+                                                > resource files (icons, images)
+                                      > widgets
+                                               > widget files
+                            > other stylename
+                                             > etc.
+                                        
+Creating Colors
+---------------
+Colors can be selected by typing the color code into the line editor and then press return. The entered text must be in the
+form of #123456 or it will be rejected. A color can also be selected by double clicking the line editor and then choosing
+a color from the color dialog box. The color code will be filled in by the program.
+
+Assigning Variables
+-------------------
+On the left side is a column of 16 arbitrarily named variables. To use a particular variable in a widget style file, assign it to the desired widget
+property. For example, if you had a variable called 'normal-text' and it was assigned to color B3 and you wanted to
+set the text color of a pushbutton to the color B3, the style code of _qpushbutton.scss file would be:
+
+QPushButton {
+...
+  color: $normal-text;
+...
+}
+
+where ... is other properties.
+
+Extras File
+-----------
+In cases where more than a simple color assignment is required, there is an extras file for assigning variables. For example,
+if you want the pushbutton to have a border 2px wide and colored blue, the style code would be:
+
+QPushButton {
+...
+  border: $cool-border;
+  color: $normal-text;
+...
+}
+
+In the stylename_extras.txt file would be a line like:
+
+cool-border = 2px solid $A6
+
+Here, A6 is the box that contains the blue color. You can also assign variables to properties not involved with color. For
+example:
+
+rc_images =  'qtdragon/images'
+...
+bgnd_main_window = url($rc_images + '/dark_metal.png')
+
+Here, the variable bgnd_main_window contains another variable that must be defined before it is used.
+
+Creating Variable File
+----------------------
+Once the palette file, the extras file and all the widget files have been defined, the variables file can be created by
+pressing Actions -> Create Variables on the menu bar. If qtsass is installed and the required folder structure exists, then
+a file called _variables.scss is created in the /home/username/qtsass/stylename directory. If this directory does not exist,
+it will be created in /home/username/style_designer/stylename. However in this case, it cannot be compiled until it is
+moved to the qtsass directory (assuming qtsass is installed).
+
+Compiling the Stylesheet
+------------------------
+If the variables file is successfully created and there exists a file called stylename.scss in the qtsass directory, the
+stylesheet can be compiled by pressing Actions -> Compile Stylesheet on the menubar. The stylename.scss file tells the
+compiler which files to import. For example, it could look like:
+
+@import 'variables';
+@import 'widgets/qcombobox';
+@import 'widgets/qpushbutton';
+etc.
+
+Note that qtsass ignores leading underscores in the filenames and also assumes that all imports end with '.scss'
+There should now be a file called stylename.qss which contains all the widget style properties. This file would typically be 
+moved to the directory where the GUI application expects to find it.

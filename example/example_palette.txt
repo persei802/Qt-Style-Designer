@@ -1,0 +1,16 @@
+#303030$bgnd_groupbox
+#E0E0E0$bgnd-lineedit
+#F0F0F0$color-label
+#F0F0F0$color-normal
+#346792$bgnd-selected
+#1A72BB$color-selected
+#057DCE$color-lineedit
+#259AE9$color-pressed
+#37AEFE$bgnd-combo
+#404040$bgnd-progress
+#9FCBFF$accent_1
+#C2DFFA$accent_2
+#CEE8FF$accent_3
+#DAEDFF$accent_4
+#F5FAFF$accent_5
+#FFFFFF$color-disabled

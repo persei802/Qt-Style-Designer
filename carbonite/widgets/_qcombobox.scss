@@ -1,0 +1,32 @@
+/** Comboboxes **/
+
+QComboBox {
+    background: $bgnd-selected;
+    border: $border-line;
+    border-radius: $border-radius;
+    min-width: 100px;
+    padding: 1px 0px 1px 8px;
+    font: $font-stack;
+    color: $color-normal;
+}
+
+QComboBox::drop-down {
+    subcontrol-origin: margin;
+    subcontrol-position: top right;
+    border: none;
+    width: 40px;
+}
+
+QComboBox::item {
+    background-color: $bgnd-normal;
+}
+
+QComboBox::item:selected {
+    background: $bgnd-selected;
+}
+
+QComboBox::down-arrow {
+    width: 24px;
+    height: 24px;
+    image: url($style_rc + '/arrow_down.png')
+}

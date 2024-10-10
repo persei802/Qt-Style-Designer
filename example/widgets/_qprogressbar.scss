@@ -1,0 +1,22 @@
+/** Progress Bar **/
+QProgressBar {
+    background: $bgnd-progress;
+    border-top: $border-bottom;
+    border-left: $border-right;
+    border-right: $border-left;
+    border-bottom: $border-top;
+    border-radius: $border-radius;
+    font: $font-stack;
+    color: $color-normal;
+}
+
+QProgressBar::chunk:horizontal {
+    background: $progress-chunk;
+    border-radius: $border-radius;
+    margin: 2px;
+}
+
+StatusAdjustmentBar QToolButton {
+    width: 40px;
+    height: 40px;
+}

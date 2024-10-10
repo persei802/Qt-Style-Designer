@@ -1,0 +1,13 @@
+/* Headers */
+QHeaderView {
+    background-color: #B0B0D0;
+    border: 0px transparent #32414B;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 0px;
+    font: 10pt "Lato Heavy";
+}
+
+QHeaderView::section::vertical::first, QHeaderView::section::vertical::only-one {
+    width: 60px;
+}

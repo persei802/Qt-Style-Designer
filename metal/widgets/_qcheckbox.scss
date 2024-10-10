@@ -1,0 +1,21 @@
+/* Checkbox */
+QCheckBox {
+    spacing: 10px;
+    margin-bottom: 2px;
+    font: $font-stack;
+    color: $color-normal;
+}
+
+QCheckBox::indicator:checked {
+    height: 16px;
+    width: 16px;
+}
+
+QCheckBox::indicator:unchecked {
+    height: 16px;
+    width: 16px;
+}
+
+QCheckBox:disabled {
+    color: $color-disabled;
+}

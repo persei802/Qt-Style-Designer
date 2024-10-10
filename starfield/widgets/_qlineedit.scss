@@ -1,0 +1,16 @@
+/** LineEdits **/
+
+QLineEdit {
+    background: $bgnd-lineedit;
+    border-top: $border-normal-bottom;
+    border-left: $border-normal-right;
+    border-right: $border-normal-left;
+    border-bottom: $border-normal-top;
+    border-radius: $border-radius;
+    font: $font-stack;
+    color: $color-lineedit;
+}
+
+QLineEdit:focus {
+    border: $border-lineedit-focus;
+}

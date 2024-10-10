@@ -1,0 +1,44 @@
+
+//
+//    WARNING! File created programmatically.
+//    All changes made in this file will be lost!
+//
+// Palette variables for example
+$color-label: #F0F0F0;
+$color-normal: #F0F0F0;
+$color-disabled: #808080;
+$color-selected: #1A72BB;
+$color-pressed: #259AE9;
+$color-lineedit: #057DCE;
+$bgnd-lineedit: #057DCE;
+$bgnd-selected: #346792;
+$bgnd-combo: #37AEFE;
+$bgnd-progress: #404040;
+$bgnd_groupbox: #303030;
+$accent_1: #9FCBFF;
+$accent_2: #C2DFFA;
+$accent_3: #CEE8FF;
+$accent_4: #DAEDFF;
+$accent_5: #F5FAFF;
+$grad-start: #505050;
+$grad-end: #808080;
+$chunk-start: #ffbe6f;
+$chunk-end: #ff7800;
+$border-hover: #0bf1d0;
+// Extras
+$rc_folder: 'example/style_rc';
+$progress-chunk: qlineargradient(0, 0, 0, 1, (0 #ffbe6f, 1 #ff7800));
+$border-line: 1px solid #000000;
+$border-radius: 4px;
+$border-top: 2px solid #606060;
+$border-left: 2px solid #606060;
+$border-right: 2px solid #404040;
+$border-bottom: 2px solid #404040;
+$border-hover: 1px solid #0bf1d0;
+$border-lineedit: 1px solid black;
+$border-lineedit-focus: 1px solid blue;
+$border-groupbox: 1px solid gray;
+$bgnd-normal: qlineargradient(0, 0, 0, 1, (0 #505050, 1 #808080));
+$bgnd-pressed: qlineargradient(0, 0, 0, 1, (0 #808080, 1 #505050));
+$bgnd-main-window: url("example/style_rc/dark_metal.png");
+$font-stack: 10pt 'Lato Heavy';

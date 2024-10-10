@@ -1,0 +1,25 @@
+/** Radio buttons **/
+
+QRadioButton {
+    spacing: 10px;
+    margin-bottom: 2px;
+    font: $font-stack;
+    color: $color-normal;
+}
+
+QRadioButton:disabled {
+    color: $color-disabled;
+}
+
+QRadioButton::indicator {
+    width: 20px;
+    height: 20px;
+}
+
+QRadioButton::indicator:unchecked {
+    image: url($style_rc + '/unchecked.png');
+}
+
+QRadioButton::indicator:checked {
+    image: url($style_rc + '/checked.png');
+}

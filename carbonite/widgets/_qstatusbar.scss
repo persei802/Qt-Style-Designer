@@ -1,0 +1,10 @@
+/* QStatusBar */
+QStatusBar {
+    border: $border-line;
+    background: $bgnd-normal;
+    color: $color-normal;
+
+    &::item {
+        border: none;
+    }
+}

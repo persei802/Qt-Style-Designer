@@ -1,0 +1,96 @@
+/** PushButtons **/
+
+QToolButton,
+QPushButton {
+    background: $bgnd-normal;
+    border-top: $border-top;
+    border-left: $border-left;
+    border-right: $border-right;
+    border-bottom: $border-bottom;
+    border-radius: $border-radius;
+    font: $font-stack;
+    color: $color-normal;
+}
+
+QPushButton:disabled,
+QPushButton:checked:disabled {
+    color: $color-disabled;
+}
+
+QPushButton:pressed,
+QPushButton:checked {
+    background: $bgnd-pressed;
+    border-top: $border-bottom;
+    border-left: $border-right;
+    border-right: $border-left;
+    border-bottom: $border-top;
+    color: $color-pressed;
+}
+
+QPushButton:hover,
+QToolButton:hover {
+/*    color: $color-hover;*/
+    border: $border-hover;
+}
+
+QPushButton#btn_home_all[homed=true] {
+/*    background: transparent;
+    border: 1px solid #00ff00;*/
+    color: #00ff00;
+}
+
+QPushButton#btn_home_all[homed=false] {
+/*    background: transparent;
+    border: 1px solid #ff0000;*/
+    color: #ff0000;
+}
+
+#btn_estop {
+  background: qlineargradient(x1: 0.0, y1: 0.0, x2: 0.0, y2: 1.0, stop: 0.0 rgba(220, 40, 40, 100%), stop: 1.0 rgba(100, 40, 40, 100%));
+  border: 4px solid red;
+  border-radius: 16px;
+  color: white;
+}
+
+#btn_estop:checked {
+  background: qlineargradient(x1: 0.0, y1: 0.0, x2: 0.0, y2: 1.0, stop: 0.0 rgba(100, 40, 40, 100%), stop: 1.0 rgba(220, 40, 40, 100%)); }
+
+#action_machine_on {
+    background: none;
+    background-image: url($rc_folder + '/machine_off.png');
+    border: none;
+}
+
+#action_machine_on:checked {
+    background: none;
+    background-image: url($rc_folder + '/machine_on.png');
+    border: none;
+}
+
+#action_spindle_fwd {
+    qproperty-spindle_up_action: true;
+}
+
+#action_spindle_rev {
+    qproperty-spindle_down_action: true;
+}
+
+#action_zero_x {
+    font: 12pt "Lato Heavy";
+    color: $axis-color-x;
+}
+
+#action_zero_y {
+    font: 12pt "Lato Heavy";
+    color: $axis-color-y;
+}
+
+#action_zero_z {
+    font: 12pt "Lato Heavy";
+    color: $axis-color-z;
+}
+
+#action_zero_a {
+    font: 12pt "Lato Heavy";
+    color: #FF00FF;
+}

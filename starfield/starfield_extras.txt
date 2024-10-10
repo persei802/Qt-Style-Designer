@@ -1,0 +1,33 @@
+
+#Miscellaneous
+rc_folder = 'starfield/style_rc'
+
+# Colors
+color-adjust = $A16
+
+# Borders
+border-line = 1px solid $A1
+border-radius = 4px
+border-normal-top = none
+border-normal-left = none
+border-normal-right = none
+border-normal-bottom = none
+border-lineedit = 1px solid $B1
+border-lineedit-focus = 1px solid $B15
+border-statuslabel = 1px solid $B1
+border-groupbox = 1px solid $A8
+
+# Backgrounds
+bgnd-normal = $B1
+bgnd-pressed = $B1
+bgnd-scrollbar = qlineargradient(0, 0, 0, 1, (0 $A7, 1 $A5))
+bgnd-main-window = url($rc_folder + '/dark_metal.png')
+#bgnd-main-window = $B4
+
+# Scrollbars
+scrollbar_height = 30px
+scrollbar_width = 30px
+
+# Fonts
+dro-font = 20pt 'Lato Heavy'
+font-stack = 10pt 'Lato Heavy'

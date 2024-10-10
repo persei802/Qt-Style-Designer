@@ -1,0 +1,42 @@
+/** Labels **/
+
+QLabel {
+    background: transparent;
+    font: $font-stack;
+    color: $color-label;
+}
+
+StatusLabel {
+    background: $bgnd-lineedit;
+    border-top: $border-normal-bottom;
+    border-left: $border-normal-right;
+    border-right: $border-normal-left;
+    border-bottom: $border-normal-top;
+    border-radius: $border-radius;
+    font: $font-stack;
+    color: $color-lineedit;
+}
+
+StatusLabel#lbl_gcodes,
+StatusLabel#lbl_mcodes,
+StatusLabel#lbl_clock {
+    background: transparent;
+    border: none;
+    color: $color-label;
+}
+
+DROLabel {
+    background: $bgnd-dro;
+    border-radius: 4px;
+    border-top: $border-normal-bottom;
+    border-left: $border-normal-right;
+    border-right: $border-normal-left;
+    border-bottom: $border-normal-top;
+    font: $dro-font;
+    color: $dro-color;
+}
+
+DROLabel[isHomed=false] {
+    color: red;
+}
+

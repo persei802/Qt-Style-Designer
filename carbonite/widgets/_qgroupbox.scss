@@ -1,0 +1,29 @@
+/** Groupboxes **/
+
+QGroupBox {
+    background: transparent;
+    border: $border-groupbox;
+    border-radius: $border-radius;
+    margin-top: 1ex;
+    font: $font-stack;
+}
+
+QGroupBox::Title {
+    subcontrol-origin: margin;
+    subcontrol-position: top-center;
+    padding: 4px 4px;
+    color: $color-normal;
+}
+
+QGroupBox::indicator {
+    width: 20px;
+    height: 20px;
+}
+
+QGroupBox::indicator:unchecked {
+    image: url($style_rc + '/checkbox_unchecked.png');
+}
+
+QGroupBox::indicator:checked {
+    image: url($style_rc + '/checkbox_checked.png');
+}

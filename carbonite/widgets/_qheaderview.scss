@@ -1,0 +1,25 @@
+/* HeaderView */
+
+QHeaderView {
+    background-color: $bgnd-header;
+    margin: 0px;
+    padding: 0px;
+    font: $font-stack;
+}
+
+QHeaderView::section {
+    background-color: $bgnd-header;
+    color: $color-selected;
+    padding: 5px;
+    text-align: center;
+}
+
+QHeaderView::section::vertical {
+    border-top: transparent;
+    color: $color-normal;
+}
+
+QHeaderView::section::horizontal {
+    border-left: transparent;
+    color: $color-normal;
+}

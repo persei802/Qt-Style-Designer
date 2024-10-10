@@ -1,0 +1,43 @@
+
+//
+//    WARNING! File created programmatically.
+//    All changes made in this file will be lost!
+//
+// Palette variables for starfield
+$color-normal: #FFFFFF;
+$color-pressed: #FFFFFF;
+$color-lineedit: #FFFFFF;
+$color-label: #FFFFFF;
+$scrollbar-handle: #909090;
+$color-disabled: #808080;
+$bgnd-groupbox: #606060;
+$bgnd-lineedit: #202020;
+$border-top-left: #707070;
+$border-bottom-right: #000000;
+$dro-color: #00AAFF;
+$bgnd-dro: #202020;
+$border-hover: #FFFFFF;
+$bgnd-progress: #404040;
+$progress-chunk: #00AAFF;
+$color-disabled: #808080;
+// Extras
+$rc_folder : 'starfield/style_rc';
+$color-adjust : #F0F0F0;
+$border-line : 1px solid #000000;
+$border-radius : 4px;
+$border-normal-top : none;
+$border-normal-left : none;
+$border-normal-right : none;
+$border-normal-bottom : none;
+$border-lineedit : 1px solid #D4AC63;
+$border-lineedit-focus : 1px solid #00AAFF;
+$border-statuslabel : 1px solid #D4AC63;
+$border-groupbox : 1px solid #707070;
+$bgnd-normal : #D4AC63;
+$bgnd-pressed : #D4AC63;
+$bgnd-scrollbar : qlineargradient(0, 0, 0, 1, (0 #606060, 1 #404040));
+$bgnd-main-window : url($rc_folder + '/dark_metal.png');
+$scrollbar_height : 30px;
+$scrollbar_width : 30px;
+$dro-font : 20pt 'Lato Heavy';
+$font-stack : 10pt 'Lato Heavy';

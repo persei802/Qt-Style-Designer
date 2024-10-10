@@ -1,0 +1,25 @@
+/** GCode Viewer **/
+
+EditorBase {
+    qproperty-styleColorMarginBackground: #303030;
+    qproperty-styleColorMarginText: #00aaff; /* margin line numbers */
+    qproperty-styleFontMargin: $font-stack;
+    qproperty-styleColorBackground: #202020;
+    qproperty-styleColor0: $color-normal; /* digit characters */
+    qproperty-styleColor1: #00ff00; /* comments */
+    qproperty-styleColor2: $color-normal; /* alphabetic characters */
+    qproperty-styleColor3: #e0e0e0; /* assignment characters */
+    qproperty-styleColor4: $color-normal; /* value characters */
+    qproperty-styleColor5: #00e0e0; /* axis characters */
+    qproperty-styleColor6: #e0e0e0; /* ? characters */
+    qproperty-styleColor7: #00e0e0; /* M and F characters */
+    qproperty-styleFont0: $font-stack;
+    qproperty-styleFont1: $font-stack;
+    qproperty-styleFont2: $font-stack;
+    qproperty-styleFont3: $font-stack;
+    qproperty-styleFont4: $font-stack;
+    qproperty-styleFont5: $font-stack;
+    qproperty-styleFont6: $font-stack;
+    qproperty-styleFont7: $font-stack;
+    qproperty-styleColorSelectionBackground: #00aaff; /* selection background */
+}

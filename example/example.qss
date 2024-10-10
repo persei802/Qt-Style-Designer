@@ -1,0 +1,216 @@
+
+/* 
+    WARNING! File created programmatically by qtsass.
+    All changes made in this file will be lost!
+*/
+/** Main Window **/
+QMainWindow {
+  background: url("example/style_rc/dark_metal.png");
+}
+
+/** Checkboxes **/
+QCheckBox {
+  spacing: 10px;
+  margin-bottom: 2px;
+  font: 10pt "Lato Heavy";
+  color: #F0F0F0;
+}
+
+QCheckBox:disabled {
+  color: gray;
+}
+
+QCheckBox::indicator {
+  width: 20px;
+  height: 20px;
+}
+
+QCheckBox::indicator:unchecked {
+  image: url("example/style_rc/unchecked.png");
+}
+
+QCheckBox::indicator:checked {
+  image: url("example/style_rc/checked.png");
+}
+
+/** Comboboxes **/
+QComboBox {
+  background: qlineargradient(x1: 0.0, y1: 0.0, x2: 0.0, y2: 1.0, stop: 0.0 rgba(80, 80, 80, 100%), stop: 1.0 rgba(128, 128, 128, 100%));
+  border-top: 2px solid #606060;
+  border-left: 2px solid #606060;
+  border-right: 2px solid #404040;
+  border-bottom: 2px solid #404040;
+  border-radius: 4px;
+  min-width: 100px;
+  padding: 1px 0px 1px 8px;
+  font: 10pt "Lato Heavy";
+  color: #F0F0F0;
+}
+
+QComboBox::drop-down {
+  subcontrol-origin: margin;
+  subcontrol-position: top right;
+  border: none;
+  width: 40px;
+}
+
+QComboBox::item {
+  background-color: #37AEFE;
+  color: #F0F0F0;
+}
+
+QComboBox::item:selected {
+  background: #346792;
+  color: #1A72BB;
+}
+
+QComboBox::down-arrow {
+  image: url("example/style_rc/arrow_down.png");
+}
+
+/** Groupboxes **/
+QGroupBox {
+  background: #303030;
+  border: 1px solid gray;
+  border-radius: 4px;
+  margin-top: 1ex;
+  font: 10pt "Lato Heavy";
+}
+
+QGroupBox::Title {
+  subcontrol-origin: margin;
+  subcontrol-position: top-center;
+  padding: 0 4px;
+  color: #F0F0F0;
+}
+
+QGroupBox::indicator {
+  width: 20px;
+  height: 20px;
+}
+
+QGroupBox::indicator:unchecked {
+  image: url("example/style_rc/unchecked.png");
+}
+
+QGroupBox::indicator:checked {
+  image: url("example/style_rc/checked.png");
+}
+
+/** Labels **/
+QLabel {
+  background: transparent;
+  font: 10pt "Lato Heavy";
+  color: #F0F0F0;
+}
+
+QStatusBar {
+  background: #303030;
+  color: #F0F0F0;
+}
+
+/** LineEdits **/
+QLineEdit {
+  background: #057DCE;
+  border: 1px solid black;
+  border-radius: 4px;
+  font: 10pt "Lato Heavy";
+  color: #057DCE;
+}
+
+QLineEdit:focus {
+  border: 1px solid blue;
+}
+
+/** PushButtons **/
+QToolButton,
+QPushButton {
+  background: qlineargradient(x1: 0.0, y1: 0.0, x2: 0.0, y2: 1.0, stop: 0.0 rgba(80, 80, 80, 100%), stop: 1.0 rgba(128, 128, 128, 100%));
+  border: 1px solid black;
+  border-radius: 4px;
+  font: 10pt "Lato Heavy";
+  color: #F0F0F0;
+}
+
+QPushButton:disabled,
+QPushButton:checked:disabled {
+  color: #808080;
+}
+
+QPushButton:pressed,
+QPushButton:checked {
+  background: qlineargradient(x1: 0.0, y1: 0.0, x2: 0.0, y2: 1.0, stop: 0.0 rgba(128, 128, 128, 100%), stop: 1.0 rgba(80, 80, 80, 100%));
+  color: #259AE9;
+}
+
+QPushButton:hover,
+QToolButton:hover {
+  /*    color: $color-hover;*/
+  border: 1px solid #0bf1d0;
+}
+
+/** Sliders **/
+QSlider::groove:horizontal {
+  background: qlineargradient(x1: 0.0, y1: 1.0, x2: 0.0, y2: 0.0, stop: 0.0 rgba(96, 96, 96, 100%), stop: 1.0 rgba(32, 32, 32, 100%));
+  height: 12px;
+  border-bottom: 2px solid #909090;
+  border-right: 2px solid #909090;
+}
+
+QSlider::groove:vertical {
+  background: qlineargradient(x1: 0.0, y1: 1.0, x2: 0.0, y2: 0.0, stop: 0.0 rgba(96, 96, 96, 100%), stop: 1.0 rgba(32, 32, 32, 100%));
+  width: 12px;
+  border-top: 2px solid #303030;
+  border-left: 2px solid #303030;
+  border-bottom: 2px solid #909090;
+  border-right: 2px solid #909090;
+}
+
+QSlider::sub-page:horizontal {
+  margin: 4px;
+}
+
+QSlider::add-page:vertical {
+  margin: 4px;
+}
+
+QSlider::handle:horizontal {
+  background: qlineargradient(x1: 0.0, y1: 0.0, x2: 0.0, y2: 1.0, stop: 0.0 rgba(128, 128, 128, 100%), stop: 1.0 rgba(224, 224, 224, 100%));
+  border: 1px solid black;
+  width: 20px;
+  margin-top: -9px;
+  margin-bottom: -9px;
+  border-radius: 2px;
+}
+
+QSlider::handle:vertical {
+  background: qlineargradient(x1: 0.0, y1: 0.0, x2: 0.0, y2: 1.0, stop: 0.0 rgba(128, 128, 128, 100%), stop: 1.0 rgba(224, 224, 224, 100%));
+  border: 1px solid black;
+  height: 20px;
+  margin-left: -9px;
+  margin-right: -9px;
+  border-radius: 2px;
+}
+
+/** Progress Bar **/
+QProgressBar {
+  background: #404040;
+  border-top: 2px solid #404040;
+  border-left: 2px solid #404040;
+  border-right: 2px solid #606060;
+  border-bottom: 2px solid #606060;
+  border-radius: 4px;
+  font: 10pt "Lato Heavy";
+  color: #F0F0F0;
+}
+
+QProgressBar::chunk:horizontal {
+  background: qlineargradient(x1: 0.0, y1: 0.0, x2: 0.0, y2: 1.0, stop: 0.0 rgba(255, 190, 111, 100%), stop: 1.0 rgba(255, 120, 0, 100%));
+  border-radius: 4px;
+  margin: 2px;
+}
+
+StatusAdjustmentBar QToolButton {
+  width: 40px;
+  height: 40px;
+}
